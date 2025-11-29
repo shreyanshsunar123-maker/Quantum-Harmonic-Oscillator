@@ -7,13 +7,19 @@ It computes and plots the lowest energy eigenstates and their corresponding wave
 Physics Background
 
 The quantum harmonic oscillator is governed by:
-$$ \hat{H}\psi(x) = E\psi(x) $$
+```math
+\hat{H}\psi(x) = E\psi(x)
+```
 
 with Hamiltonian:
-$$ \hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + \frac{1}{2} m\Omega^2 x^2 $$
+```math
+\hat{H} = -\frac{\hbar^2}{2m} \frac{d^2}{dx^2} + \frac{1}{2} m\Omega^2 x^2
+```
 
 Energy eigenvalues (analytic solution):
-$$ E_n = \hbar\Omega \left(n + \frac{1}{2}\right) $$
+```math
+ E_n = \hbar\Omega \left(n + \frac{1}{2}\right)
+```
 This project numerically reconstructs these eigenvalues and eigenstates by converting the Hamiltonian into a matrix form and solving the matrix eigenvalue problem.
 
 Numerical Method:
