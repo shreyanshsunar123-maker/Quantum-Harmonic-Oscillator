@@ -1,1 +1,0 @@
-# Quantum-Harmonic-Oscillator
